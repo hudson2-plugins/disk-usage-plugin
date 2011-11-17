@@ -1,0 +1,9 @@
+Hudson Disk Usage Plugin
+
+To build
+
+mvn package
+
+To Test
+
+mvn hpi:run
