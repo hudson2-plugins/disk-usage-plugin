@@ -16,7 +16,7 @@
     
     <version>1.0-SNAPSHOT</version>
     
-    <url>http://wiki.hudson-ci.org/display/JENKINS/Disk+Usage+Plugin</url>
+    <url>http://wiki.hudson-ci.org/display/HUDSON/Disk+Usage+Plugin</url>
     
     <scm>
         <connection>scm:git:git://github.com/hudson-plugins/disk-usage-plugin.git</connection>
@@ -54,5 +54,4 @@
         </dependency>
     </dependencies>
  
-    
 </project>
