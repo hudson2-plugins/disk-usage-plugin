@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.eclipse.hudson.plugins</groupId>
+        <artifactId>hudson-plugin-parent</artifactId>
+        <version>3.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>disk-usage</artifactId>
+    <packaging>hpi</packaging>
+    <name>Hudson Disk Usage plugin</name>
+    
+    <description>This plugin displays disk usage of a project</description>
+    
+    <version>1.0-SNAPSHOT</version>
+    
+    <url>http://wiki.hudson-ci.org/display/JENKINS/Disk+Usage+Plugin</url>
+    
+    <scm>
+        <connection>scm:git:git://github.com/hudson-plugins/disk-usage-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:hudson-plugins/disk-usage-plugin.git</developerConnection>
+        <url>https://github.com/hudson-plugins/disk-usage-plugin</url>
+    </scm>
+    
+    <licenses>
+        <license>
+            <name>The MIT license</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <id>wjprakash</id>
+            <name>Winston Prakash</name>
+            <email>Winston.Prakash@gmail.com</email>
+        </developer>
+    </developers>
+    
+    <contributors>
+        <contributor> 
+            <name>Vojtech Juranek</name>
+        </contributor>
+    </contributors>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+    </dependencies>
+ 
+    
+</project>
